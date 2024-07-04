@@ -1,7 +1,7 @@
 import { getCart } from "@/lib/db/cart";
 import { setProductQuantity } from "./actions";
 import CartEntry from "./CartEnrty";
-import { formatPrice } from "@/lib/db/format";
+import { formatPrice } from "@/lib/format";
 
 export const metadata = {
   title: "Your Cart - Stellar Store",
